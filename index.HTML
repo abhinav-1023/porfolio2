@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0%;
+        margin: 0px;
+
+    }
+    footer{
+        height: 250px;
+        background-color: rgb(30, 29, 29);
+    }
+    .foter{
+      
+        color: whitesmoke;
+        display: inline;
+    }
+    .contact{
+        height: 200px;
+        width: 400px;
+        display: inline;
+        float: left;
+        font-size: 25px;
+        border-radius: 4px;
+        
+        position: absolute;
+        top: 10px;
+        left: 5px;
+
+    }
+    .contact>h4{
+        text-align: center;
+    
+        
+    }
+    
+    .ab{
+        position: relative;
+        top:50px;
+        left:15px;
+
+    }
+    .ba{
+        height: 200px;
+        width: 400px;
+        display: inline-block;
+        border-radius: 4px;
+    
+        position: relative;
+        top:10px;
+        left: 32%;
+
+    }
+    .ba>img{
+        height: 190px;
+        width: 190px;
+        border-radius: 50%;
+        position: relative;
+        top: 1%;
+        left: 25%;
+
+    }
+    .other{
+        height: 200px;
+        
+        width: 500px;
+        float: right;
+        display: inline;
+        position: relative;
+        top:4%;
+        left: 0%;
+        border-radius: 4px;
+        font-size: 25px;
+    }
+    .other>h4{
+        text-align: center;
+    }
+    .bhav{
+        position: relative;
+        top: 20%;
+        left: 0%;
+        font-size: 30px;
+
+    }
+    a{
+        color:whitesmoke;
+        text-decoration: none;
+        transition: 1s all ;
+    }
+    a:hover{
+        text-decoration: underline;
+        font-size: 21px;
+    }
+    .topicFooter{
+            width: auto;
+            height: 50px;
+            background-color: rgb(40, 39, 39);
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 3px ;
+        }
+    h4{
+        position: relative;
+        top:20%;
+
+    }
+    @media  (max-width: 1160px){
+        .ba{
+            visibility: collapse;
+            width:0%;
+            height: 0%;
+
+        }
+    }
+    @media  (max-width: 900px){
+        
+        .ba{
+            visibility: collapse;
+            clear: both;
+        }
+        footer{
+            height: 600px;
+            background-color: rgb(30, 29, 29);
+            
+            float: left;
+            display: inline;
+            padding-left: 0px;
+        }
+        .other{
+            position: relative;
+            left:0%;
+            top:10%;
+            float:left;
+        }
+        .contact{
+            width: 100vh;
+            position: relative;
+            left: 0%;
+            float: left;
+            width:595px;
+        }
+        .other{
+            width: 99vh;
+        }
+        *{
+            width: 100VH;
+            text-align: center;
+
+        
+        }
+        .ba{
+            width: 0px;
+            height: 0px;
+        }
+         
+        .topicFooter{
+            width: 100vh;
+        }
+    }
+
+</style>
+<body>
+    <header></header>
+    <main></main>
+    <footer>
+        <div class="foter">
+            <div class="contact">
+                <div class="topicFooter"><h4 >where to contact me</h4></div>
+                <div class="ab">
+                <h5>Gmail : sharma2004223@gmail.com</h5>
+                <h5> Intagram : <a href="https://www.instagram.com/shar_ma.2302/"> shar_ma.2302</a></h5>
+                <h5>Linkden : <a href="https://www.linkedin.com/in/abhinav-sharma-58a154279/">Abhinav sahrma , jammu university</a></h5>
+                <H5>Github : <a href="https://github.com/abhinav-1023/abhinav-1023/tree/main"> abhinav-1023</a></H5>
+            </div></div>
+            <div class="ba">
+                <img src="./IMG_20230927_213249_146.jpg" alt="Abhinav sharma's picture">
+            </div>
+            <div class="other"> 
+                <div class="topicFooter"><h4 >Recent projects :</h4></div>
+                <div class=" bhav">
+                <h6>Contact information for college website : <a href="https://abhinav-1023.github.io/bhavika/">contact </a></h6>
+                <h6>Confession room : <a href="https://abhinav-1023.github.io/contactinfo/"> confession</a></h6>
+                
+            </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
